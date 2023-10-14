@@ -1,0 +1,16 @@
+[package]
+name = "miditran"
+version = "0.3.8"
+edition = "2018"
+authors = ["Sean Cross <sean@xobs.io>"]
+license = "Apache-2.0"
+
+[dependencies]
+clap = "3.2.18"
+midir = "0.9.1"
+enigo = "0.1.3"
+
+[features]
+
+winrt = ["midir/winrt"]
+debug = []
